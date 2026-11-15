@@ -1,6 +1,7 @@
 # SCORM Conversion Tool
 
-> **Website:** `web/` holds the hosted converter (front end + Vercel API). See [web/README.md](web/README.md).
+> **Live website:** https://scorm-conversion-web.vercel.app/ (upload a file, download SCORM packages).
+> Source in `web/` (front end + Vercel API), see [web/README.md](web/README.md).
 
 Turn **HTML, video, audio or PDF** into LMS-ready **SCORM 2004 and SCORM 1.2** packages, built to the
 SCORM Conversion Kit standard (docs 01 to 07): manifest at the zip root, one SCO per package,

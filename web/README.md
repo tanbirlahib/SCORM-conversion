@@ -3,6 +3,8 @@
 Front end + back end that turns HTML, video, audio and PDF files into SCORM 2004 and SCORM 1.2
 packages. Hosted on Vercel. **No npm dependencies.**
 
+**Live:** https://scorm-conversion-web.vercel.app/ (health check: [`/api/health`](https://scorm-conversion-web.vercel.app/api/health))
+
 ## How it works
 
 1. The learner-facing page (`public/`) asks for the file type and settings.
@@ -64,4 +66,5 @@ JSON `{ "error": "..." }` with 400/413/415/422/500. 413 and 500 include `"fallba
 
 ## Deploy (Vercel)
 
-Project root directory: `web`. No build command; output directory `public` (set in `vercel.json`).
+Live at https://scorm-conversion-web.vercel.app/. Project root directory: `web`. No build command; output
+directory `public` (set in `vercel.json`). Pushes to `main` redeploy when the Vercel project is linked to this repo.
