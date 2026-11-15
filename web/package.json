@@ -1,0 +1,14 @@
+{
+  "name": "scorm-converter-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Website + API that converts HTML, video, audio and PDF into SCORM 1.2 / 2004 packages.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "assets": "node scripts/build-assets.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:e2e": "node tests/e2e.mjs"
+  }
+}
